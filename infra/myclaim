@@ -1,0 +1,11 @@
+apiVersion: k8s.starter.org/v1alpha1
+kind: KubernetesCluster
+metadata:
+  name: asd
+  namespace: app-clusters
+spec:
+  id: platform-ref-aws
+  parameters:
+    nodes:
+      count: 1
+      size: small
